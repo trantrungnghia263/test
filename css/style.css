@@ -1,0 +1,122 @@
+body{
+background-color: black;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover{
+	color: #FF6633;
+}
+p{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.Baotrum{
+	width: 1200px;
+	height: auto;
+}
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.menu img{
+	margin:0px 15px -40px; 
+}
+.menu img:hover{
+	opacity: 0;
+}
+.style{
+	margin-top: 30px;
+	position: relative;
+}
+.style .left{
+	width: 500px;
+	position: absolute;
+	left: 85px;
+	top: 100px;
+}
+.style .left h2{
+	font-size: 60px;
+	color: #FFFFFF;
+}
+.left{
+	margin-top: 8px;
+}
+.button{
+	padding: 15px 40px;
+	background-color: #996666;
+	border-radius: 20px;
+	color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border :none;
+    margin-top: 20px;
+}
+.style .right{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.hidden{
+	background-color: rgba(0,0,0,0);
+	color: #fff;
+	margin-right: 20px;
+	font-size: 40px;
+	cursor: pointer;
+}
+.banner{
+	margin-top: 30px;
+}
+.bannerRight{
+    width: 600px;
+    height: 590px;
+    margin-right: 20px;
+    float:left;
+    background-image: url('../image/banner3.png');
+    background-size: cover;
+    position: relative;
+}
+.bannerLeft{
+	width: 580px;
+	height: 590px;
+	float: left;	
+	background-image: url('https://presetsandmore.com/wp-content/uploads/2018/06/psd-world-cup.jpg');
+	background-size: cover;
+	position: relative;
+}
+.textL{
+	position: absolute;
+	left: 320px;
+	bottom: 75px;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+.view1{
+	position: absolute;
+	bottom: 50px;
+	left: 360px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.textR{
+	position: absolute;
+	left:  50px;
+	top:  1px;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+.view2{
+	position: absolute;
+	top:  170px;
+	left:  50px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
